@@ -1,14 +1,30 @@
-# Project
+This repository contains sample agentic applications in python that can talk to OpenAI models and perform complex tasks based on user queries.
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+##Prerequisites
 
-As the maintainer of this project, please make a few updates:
+You need an OpenAI API Key, Tavily Search API Key, Open Weather Map API Key and M365 Developer Tenant
+You will need to buy a license to use the OpenAI GPT models
+Alternatively, you can use AzureAI models by deploying your models using your Azure subscription. Steps are here --> https://learn.microsoft.com/en-us/azure/ai-foundry/model-inference/concepts/endpoints?tabs=python
+You will need to create an app registration in Azure portal. Use the following steps - https://learn.microsoft.com/en-us/graph/tutorials/python?tabs=aad&tutorial-step=1
+Save the ClientID and the TenantID from this app you created.
+You need to install Python, Jupyter notebook, PIP on your system. I am using Windows 11.
+You need to install the following Python Packages - Jupyter, Python, LangChain, MSGraph, AzureIdentity
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+##Steps to get your first Agent running
+
+Clone this repository
+Go to the folder where you downloaded the repository.
+Open the .env file and add your keys that you obtained from OpenAI, Tavily, Open Weather Map, etc.
+Add ClientID and the TenantID
+Save and Close the file.
+Run the following command to ensure all the right libraries are installed --> pip install --requirement=.\requirements.txt
+Open Command Prompt and go to the folder where the repository is.
+Type the following command - jupyter notebook
+This will open a web page that contains all your scripts.
+Click on first Agent script and it will open in a separate page.
+Click on the run icon.
+You should see the output on the line below.
+Getting the Clippy2 Agent running This is a more advanced Agent and to run it, you will need to access Microsoft Graph SDKs.
 
 ## Contributing
 
