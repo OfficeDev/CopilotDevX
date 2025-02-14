@@ -1,30 +1,30 @@
-This repository contains sample agentic applications in python that can talk to OpenAI models and perform complex tasks based on user queries.
+This repository contains sample agentic applications in python that can talk to Azure AI and OpenAI models and perform complex tasks based on user queries.
 
-##Prerequisites
+## Prerequisites
 
-You need an OpenAI API Key, Tavily Search API Key, Open Weather Map API Key and M365 Developer Tenant
-You will need to buy a license to use the OpenAI GPT models
-Alternatively, you can use AzureAI models by deploying your models using your Azure subscription. Steps are here --> https://learn.microsoft.com/en-us/azure/ai-foundry/model-inference/concepts/endpoints?tabs=python
-You will need to create an app registration in Azure portal. Use the following steps - https://learn.microsoft.com/en-us/graph/tutorials/python?tabs=aad&tutorial-step=1
-Save the ClientID and the TenantID from this app you created.
-You need to install Python, Jupyter notebook, PIP on your system. I am using Windows 11.
-You need to install the following Python Packages - Jupyter, Python, LangChain, MSGraph, AzureIdentity
+1. You need an OpenAI API Key, Tavily Search API Key, Open Weather Map API Key and M365 Developer Tenant
+2. You will need to buy a license to use the OpenAI GPT models
+3. Alternatively, you can use AzureAI models by deploying your models using your Azure subscription. Steps are here --> https://learn.microsoft.com/en-us/azure/ai-foundry/model-inference/concepts/endpoints?tabs=python
+4. You will need to create an app registration in Azure portal. Use the following steps - https://learn.microsoft.com/en-us/graph/tutorials/python?tabs=aad&tutorial-step=1
+5. Save the ClientID and the TenantID from this app you created.
+6. You need to install Python, Jupyter notebook, PIP on your system. I am using Windows 11.
+7. You need to install the following Python Packages - Jupyter, Python, LangChain, MSGraph, AzureIdentity
 
-##Steps to get your first Agent running
+## Steps to get your first Agent running
 
-Clone this repository
-Go to the folder where you downloaded the repository.
-Open the .env file and add your keys that you obtained from OpenAI, Tavily, Open Weather Map, etc.
-Add ClientID and the TenantID
-Save and Close the file.
-Run the following command to ensure all the right libraries are installed --> pip install --requirement=.\requirements.txt
-Open Command Prompt and go to the folder where the repository is.
-Type the following command - jupyter notebook
-This will open a web page that contains all your scripts.
-Click on first Agent script and it will open in a separate page.
-Click on the run icon.
-You should see the output on the line below.
-Getting the Clippy2 Agent running This is a more advanced Agent and to run it, you will need to access Microsoft Graph SDKs.
+1. Clone this repository
+2. Go to the folder where you downloaded the repository.
+3. Open the .env file and add your keys that you obtained from OpenAI, Tavily, Open Weather Map, etc.
+4. Add ClientID and the TenantID
+5. Save and Close the file.
+6. Run the following command to ensure all the right libraries are installed --> pip install --requirement=.\requirements.txt
+7. Open Command Prompt and go to the folder where the repository is.
+8. Type the following command - jupyter notebook
+9. This will open a web page that contains all your scripts.
+10. Click on first Agent script and it will open in a separate page.
+11. Click on the run icon.
+12. You should see the output on the line below.
+13. Getting the Clippy2 Agent running This is a more advanced Agent and to run it, you will need to access Microsoft Graph SDKs.
 
 ## Contributing
 
