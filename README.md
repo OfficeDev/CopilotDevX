@@ -26,6 +26,9 @@ This repository contains sample agentic applications in python that can talk to 
 12. You should see the output on the line below.
 13. Getting the Clippy2 Agent running This is a more advanced Agent and to run it, you will need to access Microsoft Graph SDKs.
 
+## Feedback
+If you have any feedback, please send a mail to sakov@microsoft.com and I will get back.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
